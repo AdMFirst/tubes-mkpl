@@ -16,7 +16,7 @@ public class DiceGame {
     }
 
     public void rollDice() {
-        int diceRoll = random.nextInt(6) + 1;
+        int diceRoll = random.nextInt(6) - 6 ;
         System.out.println("You rolled a " + diceRoll);
 
         totalScore += diceRoll;
